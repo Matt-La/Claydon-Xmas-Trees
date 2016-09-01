@@ -1,0 +1,189 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+.seperator {
+	width: 100px;
+	background-color: #94c347;
+	height: 2px;
+	margin-bottom: 60px;
+}
+
+ul {
+	padding: 0;
+}
+
+ li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/* =========================================
+Top Bar styles
+============================================*/
+
+#top-bar {
+	background-color: #f2f2f2;
+	padding: 10px 0 10px 0;
+}
+
+.phone,
+.email,
+.facebook,
+.twitter {
+	display: inline-block;
+	padding-right: 30px;
+	vertical-align: middle;
+}
+
+.phone span,
+.email span {
+	color: #94c347;
+	padding-right: 7px;
+	vertical-align: middle;
+}
+
+.phone a, 
+.email a {
+	letter-spacing: 1px;
+	color: #666;
+}
+
+.phone a:hover,
+.email a:hover {
+	text-decoration: none;
+	color: #94c347;
+}
+
+.twitter img {
+	width: 25px;
+	height: auto;
+}
+
+/* =========================================
+Navigation styles
+============================================*/
+
+#navbar {
+	padding: 0;
+}
+
+.logo {
+	float: left;
+	padding: 30px 0;
+}
+
+.navbar-nav {
+	margin: 48px 0 0 20px;
+} 
+
+.navbar-nav li a {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.navbar-nav li:hover {
+	background-color: #94c347;
+}
+
+
+.navbar-default {
+	background-color: #fff;
+	border: none;
+}
+
+/* =========================================
+ Hero styles
+============================================*/
+
+.jumbotron {
+	background: url('../images/background.jpg') no-repeat center;
+	height: 700px;
+	margin-top: -10px;
+}
+
+#about h2 {
+	text-align: center;
+	color: #666;
+	text-transform: uppercase;
+}
+
+#about h2 span {
+	color: #94c347;
+}
+
+.title {
+	padding-bottom: 60px;
+}
+
+#about .copy p {
+	line-height: 26px;
+	font-size: 18px;
+}
+
+.row-two{
+	margin-top: 50px;
+}
+
+#opening-times {
+	background: url('../images/opening-bg.jpg') no-repeat center;
+	background-size: cover;
+	height: 266px;
+	margin-top: 60px;
+}
+
+.opening-copy p {
+	font-size: 22px;
+	margin-top: 60px;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+	line-height: 30px;
+}
+
+#contact h2 {
+	color: #666;
+	text-align: center;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+#contact span {
+	color: #94c347;
+}
+
+.contact-details {
+	margin-top: 50px;
+}
+
+.contact-phone {
+	padding: 60px 0 60px 0;
+}
+
+.contact-details a {
+	text-decoration: none;
+	color: #666;
+	margin-left: 10px;
+}
+
+.contact-details a:hover {
+	color: #94c347;
+}
+
+footer {
+	background-color: #333;
+	line-height: 60px;
+	margin: 50px 0 0 0;
+}
+
+footer small {
+	color: #fff;
+	font-size: 10px;
+}
+
+
+
+
+
+
