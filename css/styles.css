@@ -3,11 +3,20 @@ body {
 	font-size: 16px;
 }
 
+.container-fluid {
+	padding: 0;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    border-radius: 0;
+}
+
 .seperator {
 	width: 100px;
 	background-color: #94c347;
 	height: 2px;
 	margin-bottom: 60px;
+	text-align: center;
 }
 
 ul {
@@ -18,6 +27,7 @@ ul {
 	text-decoration: none;
 	list-style-type: none;
 }
+
 
 /* =========================================
 Top Bar styles
@@ -97,7 +107,7 @@ Navigation styles
  Hero styles
 ============================================*/
 
-.jumbotron {
+.home-page {
 	background: url('../images/background.jpg') no-repeat center;
 	height: 700px;
 	margin-top: -10px;
@@ -170,6 +180,63 @@ Navigation styles
 .contact-details a:hover {
 	color: #94c347;
 }
+
+/*=====================================
+Family Activities
+=====================================*/
+
+.family-activities {
+	position: relative;
+	background: url('../img/activities-BG.jpg') no-repeat top center;
+	background-size: cover;
+	height: 350px;
+	margin-top: -10px;
+}
+
+.family-activities h1 {
+	color: #eee;
+	padding: 30px 0 0 0;
+}
+
+#activities h2 {
+	color: #94c347;
+	text-align: center;
+}
+
+#activities .seperator {
+	text-align: center;
+}
+
+#activities-content p {
+	color: #555;
+	font-size: 18px;
+}
+
+#activities-content .col {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#activities-content img {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#activities-content .bottom-copy {
+	margin-top: 30px;
+}
+
+#activities-content .bottom-copy span {
+	color: #94c347;
+	font-weight: bold;
+}
+
+
+/*=====================================
+Footer
+=====================================*/
+
+
 
 footer {
 	background-color: #333;
